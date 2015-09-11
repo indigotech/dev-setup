@@ -1,0 +1,6 @@
+---
+sources:
+  local:
+    - xcode-6.4.yml
+    - vmware-7.1.2.yml
+    - android-studio-1.3.yml

@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install VMWare Fusion 7.1.2
+      mac_pkg: pkg_type=app
+               "url=ftp://{{ ftp_user }}:{{ ftp_password }}@10.22.11.80/Dev/VMWare%20Fusion%207%20Pro/VMware-Fusion-7.1.2-2779224.dmg"
+               archive_type=dmg archive_path='VMware Fusion.app'
+      sudo: no
