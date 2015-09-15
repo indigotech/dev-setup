@@ -2,7 +2,7 @@ How to run?
 -----------
 
 ```bash
-$ curl -L https://raw.githubusercontent.com/indigotech/dev-setup/master/scripts/setup.sh | bash
+curl -O https://raw.githubusercontent.com/indigotech/dev-setup/master/scripts/setup.sh && env bash setup.sh
 ```
 
 
