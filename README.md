@@ -69,17 +69,19 @@ Manual steps
   2. Run `rm -rf ~/scripts ~/.battleschool`
 
 
+### Add Taqtile Developer account to XCode
+
+  1. Open XCode
+  2. Open Preferences: `XCode` > `Preferences` or `⌘,`
+  3. Select `Accounts` tab
+  4. Add Taqtile Developer's account
+
+
 ### Install App Store Apps
 
   1. Open `App Store`
   2. Search and install the following apps
     - Sketch
-
-
-### Set Computer Name
-
-  1. Go to `System Preferences` > `Sharing`
-  2. Set `Computer Name` according to the label on the computer
 
 
 ### Disable Guest Account
@@ -88,13 +90,14 @@ Manual steps
   2. Unlock the padlock on the bottom
   3. Select `Guest User` on the left
   4. Uncheck `Allow guests to log in to this computer`
+  5. Uncheck `Allow guest users to connect to shared folders`
   5. Lock the padlock
 
 
-### Disable Handoff
+### Configure iCloud
 
-  1. Go to `System Preferences` > `General`
-  2. Uncheck `Allow Handoff between this Mac and your iCloud devices`
+  1. Go to `System Preferences` > `iCloud`
+  2. Disable all services except `Find My Mac`
 
 
 Next steps
