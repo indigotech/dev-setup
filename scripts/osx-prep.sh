@@ -5,7 +5,7 @@ echo -en "\033[33m"
 echo "------------------------------"
 echo "Updating OSX.  If this requires a restart, run the script again."
 echo -en "\033[0m"
-# sudo softwareupdate -iva
+softwareupdate -iva
 
 # Install command line tools
 echo -en "\033[33m"
