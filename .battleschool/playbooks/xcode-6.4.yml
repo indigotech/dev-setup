@@ -4,7 +4,7 @@
   tasks:
     - name: install XCode 6.4
       mac_pkg: pkg_type=app
-               "url=ftp://{{ ftp_user }}:{{ ftp_password }}@10.22.11.80/Dev/XCode/6.4/Xcode_6.4.dmg"
+               "url=ftp://{{ FTP_USER }}:{{ FTP_PASSWORD }}@10.22.11.80/Dev/XCode/6.4/Xcode_6.4.dmg"
                archive_type=dmg archive_path='XCode.app'
       sudo: no
 

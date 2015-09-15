@@ -4,6 +4,6 @@
   tasks:
     - name: install Android Studio 1.3
       mac_pkg: pkg_type=app
-               "url=ftp://{{ ftp_user }}:{{ ftp_password }}@10.22.11.80/Dev/Android%20Studio/android-studio-ide-141.2178183-mac.dmg"
+               "url=ftp://{{ FTP_USER }}:{{ FTP_PASSWORD }}@10.22.11.80/Dev/Android%20Studio/android-studio-ide-141.2178183-mac.dmg"
                archive_type=dmg archive_path='Android Studio.app'
       sudo: no
