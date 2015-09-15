@@ -11,7 +11,7 @@ echo "------------------------------"
 echo "Syncing the dev-setup repo to your local machine."
 echo "------------------------------"
 echo -en "\033[0m"
-cd $HOME && curl -#L https://github.com/indigotech/dev-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,LICENSE,.gitignore}
+cd $HOME && curl -#L https://github.com/indigotech/dev-setup/tarball/master | tar -xzkv --strip-components 1 --exclude={README.md,LICENSE,.gitignore}
 
 cd $HOME/scripts
 
