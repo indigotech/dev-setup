@@ -63,6 +63,14 @@ What does this setup install?
 Manual steps
 ------------
 
+### Remove git user from Keychain
+  
+  1. Open Keychain Access
+  2. Filter for `Passwords` in the Category left menu
+  3. Search for `github`
+  4. Click on entry named `github.com` and check the if value the for `Account` is yours
+  5. Delete this entry
+
 ### Remove scripts and battleschool folders
 
   1. Open Terminal or iTerm2
