@@ -40,6 +40,9 @@ What does this setup install?
     - slack
     - google-chrome
     - spectacle
+    - charles
+    - mongohub
+    - skitch
 
 ### rvm.sh
   - rvm
@@ -64,7 +67,7 @@ Manual steps
 ------------
 
 ### Remove git user from Keychain
-  
+
   1. Open Keychain Access
   2. Filter for `Passwords` in the Category left menu
   3. Search for `github`
@@ -90,6 +93,9 @@ Manual steps
   1. Open `App Store`
   2. Search and install the following apps
     - Sketch
+  3. Launch `Sketch`
+  4. Click `Download` button to download `Sketch` from their site
+  5. Replace this version in `Applications` folder
 
 
 ### Disable Guest Account

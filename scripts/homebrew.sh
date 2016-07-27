@@ -80,6 +80,9 @@ brew cask install genymotion
 brew cask install slack
 brew cask install google-chrome
 brew cask install spectacle
+brew cask install charles
+brew cask install mongohub
+brew cask install skitch
 
 # Remove outdated versions from the cellar.
 brew cleanup

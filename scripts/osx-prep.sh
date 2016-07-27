@@ -27,6 +27,7 @@ echo "Setting Computer Name..."
 echo -en "\033[0m"
 read -p "Computer Name: " COMPUTER_NAME
 sudo scutil --set ComputerName "$COMPUTER_NAME"
+sudo scutil --set LocalHostName "$COMPUTER_NAME"
 unset COMPUTER_NAME
 
 
@@ -41,6 +42,7 @@ PREF_FILE="$HOME/Library/Preferences/ByHost/com.apple.coreservices.lsuseractivit
 
 defaults write $PREF_FILE ActivityAdvertisingAllowed -bool NO
 defaults write $PREF_FILE ActivityReceivingAllowed -bool NO
+defaults write com.apple.Finder AppleShowAllFiles 1
 
 unset UUID
 unset PREF_FILE
