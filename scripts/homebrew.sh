@@ -71,7 +71,7 @@ brew cask install java
 brew cask install xquartz
 
 # Development tool casks
-brew cask install sublime-text3
+brew cask install sublime-text
 brew cask install atom
 brew cask install virtualbox
 brew cask install genymotion
