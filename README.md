@@ -87,6 +87,11 @@ Manual steps
   3. Select `Accounts` tab
   4. Add Taqtile Developer's account
 
+### Add Charles license
+
+  1. Open `Charles`
+  2. Open Help: `Register Charles`
+  3. Add License key
 
 ### Install App Store Apps
 
