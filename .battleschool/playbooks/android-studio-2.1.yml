@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install Android Studio 2.1
+      mac_pkg: pkg_type=app
+               "url=ftp://{{ FTP_USER }}:{{ FTP_PASSWORD }}@10.22.11.80/Dev/Android%20Studio/android-studio-ide-143.3101438-mac.dmg"
+               archive_type=dmg archive_path='Android Studio.app'
+      sudo: no
