@@ -73,6 +73,7 @@ brew cask install xquartz
 # Development tool casks
 brew cask install sublime-text
 brew cask install atom
+brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install genymotion
 
