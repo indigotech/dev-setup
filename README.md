@@ -43,6 +43,7 @@ What does this setup install?
     - charles
     - mongohub
     - skitch
+    - VS code
 
 ### rvm.sh
   - rvm
@@ -92,15 +93,6 @@ Manual steps
   1. Open `Charles`
   2. Open Help: `Register Charles`
   3. Add License key
-
-### Install App Store Apps
-
-  1. Open `App Store`
-  2. Search and install the following apps
-    - Sketch
-  3. Launch `Sketch`
-  4. Click `Download` button to download `Sketch` from their site
-  5. Replace this version in `Applications` folder
 
 
 ### Disable Guest Account
