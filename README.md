@@ -36,6 +36,7 @@ What does this setup install?
     - virtualbox
     - slack
     - google-chrome
+    - firefox
     - spectacle
     - charles
     - mongohub
