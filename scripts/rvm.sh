@@ -23,8 +23,8 @@ echo -en "\033[33m"
 echo "------------------------------"
 echo "Installing ruby..."
 echo -en "\033[0m"
-rvm install 2.2.3 --disable-binary
-rvm use 2.2.3 --default
+rvm install 2.4.5 --disable-binary
+rvm use 2.4.5 --default
 
 # No rdoc and no ri by default
 echo -en "\033[33m"
@@ -54,14 +54,3 @@ echo "------------------------------"
 echo "Configuring bundler..."
 echo -en "\033[0m"
 bundle config --global jobs 7
-
-# Install tqt
-echo -en "\033[33m"
-echo "------------------------------"
-echo "Installing tqt..."
-echo -en "\033[0m"
-if ! type tqt > /dev/null; then
-  curl -L https://raw.githubusercontent.com/indigotech/tqt-install/master/script.sh | sh
-else
-  echo -e "\033[32mtqt already installed. \033[0m"
-fi

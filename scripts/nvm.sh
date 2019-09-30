@@ -24,5 +24,5 @@ echo -en "\033[33m"
 echo "------------------------------"
 echo "Installing node..."
 echo -en "\033[0m"
-nvm install 6.5.0
-nvm alias default 6.5.0
+nvm install 10.16.0
+nvm alias default 10.16.0

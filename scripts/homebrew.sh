@@ -71,18 +71,11 @@ brew cask install java
 brew cask install xquartz
 
 # Development tool casks
-brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install postman
 
 # Misc casks
-brew cask install slack
-brew cask install google-chrome
-brew cask install firefox
-brew cask install spectacle
 brew cask install charles
-brew cask install mongohub
-brew cask install skitch
 
 # Remove outdated versions from the cellar.
 brew cleanup

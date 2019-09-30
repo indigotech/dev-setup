@@ -2,7 +2,7 @@ How to run?
 -----------
 
 ```bash
-curl -O https://raw.githubusercontent.com/indigotech/dev-setup/master/scripts/setup.sh && env bash setup.sh
+curl -O https://raw.githubusercontent.com/indigotech/dev-setup/feature/half-setup/scripts/setup.sh && env bash setup.sh
 ```
 
 
@@ -34,14 +34,8 @@ What does this setup install?
     - java
     - zquartz
     - virtualbox
-    - slack
-    - google-chrome
-    - firefox
-    - spectacle
     - charles
     - mongohub
-    - skitch
-    - VS code
 
 ### rvm.sh
   - rvm
@@ -49,7 +43,6 @@ What does this setup install?
     - ruby gems
       - bundler
       - cocoapods
-      - tqt
 
 ### nvm.sh
   - nvm
